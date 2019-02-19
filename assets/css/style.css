@@ -1,0 +1,56 @@
+.wrapper {
+	content: "";
+	background-image: url("../images/Babe_Ruth.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* opacity: 0.4; Setting the opacity here affected the entire page, I set it on the jumbotron instead to allow more of the background picture to show.*/ 
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+/* body {
+} */
+.container {
+	padding-top: 25px;
+}
+.jumbotron {
+	opacity: 0.8;
+	align-items: center;
+}
+
+h1 {
+	color: white
+}
+
+h1, h2, h3, h5, #questions, #answers {
+	text-align: center;
+}
+/* center the button and answer selections. Not finished yet*/
+
+/* #answersDiv{
+	align-self: center
+} */
+/* .center {
+	margin: auto;
+	width: 60%;
+	/* border: 3px solid rgb(5, 5, 5); 
+	padding: 10px;
+	
+} */
+
+.answer {
+	background-color: #48484d;
+	border: solid #ccccb3 2px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	visibility: hidden;
+}
+
+#reset {
+	visibility: hidden;
+}
